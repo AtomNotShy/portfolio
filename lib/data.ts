@@ -2,8 +2,9 @@ export const personalInfo = {
   name: "Tong Zhou",
   title: "Full Stack Engineer",
   description:
-    "I'm a passionate developer with expertise in modern web technologies. I love building scalable and user-friendly applications.",
+    "Hi, I'm Tong — a full-stack software engineer with hands-on experience across the entire product lifecycle, from system architecture and backend development to frontend engineering, infrastructure, deployment, and on-site delivery. \n I specialize in building scalable web platforms and cloud-native services, with a strong focus on reliability, performance, and clean engineering. \n Over the past few years, I have worked on data-intensive systems, SaaS platforms, IoT device connectivity, and enterprise software for both internal teams and real-world commercial environments. \n I enjoy turning ideas into production-ready products — designing the architecture, writing code across the stack, integrating services, optimizing databases, setting up CI/CD pipelines, and deploying to Linux servers or Docker-based environments. \n My work doesn’t end at shipping code — I also handle system rollout, troubleshooting, monitoring, and maintenance to ensure smooth delivery and stable operation.",
   email: "zhoutong7979@gmail.com",
+  resumeUrl: "/resume.pdf", // 将您的简历 PDF 放在 public 文件夹中
   social: {
     github: "https://github.com/AtomNotShy",
     linkedin: "https://www.linkedin.com/in/sde-zhoutong/",
@@ -12,20 +13,10 @@ export const personalInfo = {
 };
 
 export const skills = [
-  {
-    category: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js"],
-  },
-  {
-    category: "Backend",
-    items: ["Java", "Spring Boot","Node.js", "Express", "PostgreSQL", "MongoDB", "REST API"],
-  },
-  {
-    category: "Tools & Others",
-    items: ["Git", "Docker", "Vercel", "AWS", "DevOps"],
-  },
+  "javascript", "typescript", "react", "tailwind", "html", "css", "nextjs", "materialui", "bootstrap","cpp", "cmake",
+  "java","maven", "python","django","fastapi", "selenium", "spring", "nodejs", "postgres", "postman", "mongodb", "redis", "kafka","rabbitmq",
+  "git", "docker", "linux", "bash", "githubactions", "vim","aws","lua"
 ];
-
 export const projects = [
   {
     id: 1,
@@ -33,7 +24,7 @@ export const projects = [
     description: "A full-stack EV charging management platform for station operators, supporting real-time monitoring, smart billing, and multi-tenant operations.",
     longDescription: "Laidian is a full-stack EV charging management platform designed for charge-station operators. It provides end-to-end capabilities including device onboarding, remote start/stop control, smart billing, real-time monitoring, and tenant-based operations. Built with a React + Spring Cloud microservices architecture, the system enables scalable deployment and is suitable for both single-station and multi-site commercial scenarios.",
     technologies: ["React", "Ant Design", "Axios", "Spring Boot", "Spring Cloud", "MyBatis", "PostgreSQL", "Redis", "Docker"],
-    image: "https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=800&h=500&fit=crop",
+    image: "/laidian.png",
     year: "2025",
     link: "http://1.14.106.45/",
     demo: "http://1.14.106.45/",
@@ -44,8 +35,8 @@ export const projects = [
     description: "A bidding information crawler and analytics system that automates data collection, cleansing, and aggregation for public tender announcements across China.",
     longDescription: "TBBid is a data crawling and analytics platform focused on public bidding and procurement information. It automatically collects and updates tender announcements from the National Public Resource Trading Center, performs data cleaning, deduplication, and classification, and enriches the dataset by matching each winning company with third-party business information. The system delivers structured bidding insights and daily incremental updates for downstream search, filtering, monitoring, and visualization use cases.",
     technologies: ["Python", "Scrapy", "PostgreSQL", "Redis", "Celery", "Docker", "Pandas", "BeautifulSoup"],
-    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=500&fit=crop",
-    year: "2023",
+    image: "/tbbid.jpg",
+    year: "2024",
     link: "https://github.com", 
     demo: "https://example.com",
   }

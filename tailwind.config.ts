@@ -14,6 +14,7 @@ const config: Config = {
         border: "#2a2a2a",
         card: "#141414",
         "card-hover": "#1a1a1a",
+        "off-white": "#f5f5f5",
       },
     },
   },

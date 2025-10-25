@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto text-center">
         <p className="text-[#606060] text-sm">
           © {currentYear} All rights reserved. Built with{" "}
-          <span className="text-white">Next.js</span> and{" "}
-          <span className="text-white">Tailwind CSS</span>.
+          <span className="text-off-white">Next.js</span> and{" "}
+          <span className="text-off-white">Tailwind CSS</span>.
         </p>
       </div>
     </footer>

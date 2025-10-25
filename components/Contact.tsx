@@ -7,7 +7,7 @@ export default function Contact() {
       className="py-20 px-4 bg-[#0a0a0a] border-t border-[#1a1a1a]"
     >
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-white mb-4">Get in Touch</h2>
+        <h2 className="text-4xl font-bold text-off-white mb-4">Get in Touch</h2>
         <p className="text-[#808080] mb-12">
           Feel free to reach out for collaboration or just a friendly hello
         </p>
@@ -18,7 +18,7 @@ export default function Contact() {
             <h3 className="text-lg text-[#b0b0b0] mb-4">Email</h3>
             <a
               href={`mailto:${personalInfo.email}`}
-              className="text-2xl font-semibold text-white hover:text-[#b0b0b0] transition-colors duration-200"
+              className="text-2xl font-semibold text-off-white hover:text-[#b0b0b0] transition-colors duration-200"
             >
               {personalInfo.email}
             </a>
@@ -35,7 +35,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
-                  className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#1a1a1a] border border-[#2a2a2a] text-white hover:border-[#4a4a4a] hover:bg-[#252525] transition-all duration-200"
+                  className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#1a1a1a] border border-[#2a2a2a] text-off-white hover:border-[#4a4a4a] hover:bg-[#252525] transition-all duration-200"
                 >
                   <svg
                     className="w-6 h-6"
@@ -54,7 +54,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
-                  className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#1a1a1a] border border-[#2a2a2a] text-white hover:border-[#4a4a4a] hover:bg-[#252525] transition-all duration-200"
+                  className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#1a1a1a] border border-[#2a2a2a] text-off-white hover:border-[#4a4a4a] hover:bg-[#252525] transition-all duration-200"
                 >
                   <svg
                     className="w-6 h-6"
@@ -73,7 +73,7 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Twitter"
-                  className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#1a1a1a] border border-[#2a2a2a] text-white hover:border-[#4a4a4a] hover:bg-[#252525] transition-all duration-200"
+                  className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#1a1a1a] border border-[#2a2a2a] text-off-white hover:border-[#4a4a4a] hover:bg-[#252525] transition-all duration-200"
                 >
                   <svg
                     className="w-6 h-6"
